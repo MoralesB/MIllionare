@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7d7d7d"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:fontFamily="sans-serif"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="367dp"
+        android:layout_height="184dp"
+        android:gravity="center"
+        android:text="Welcome to Who Wants to Be a Millionaire!" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Answer the following questions to win BIG prize money!" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:text="NEXT" />
+
+
+</LinearLayout>
